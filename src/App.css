@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
+/* --------------------  google fonts ----------------  */
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Arimo:ital,wght@1,700&family=Kdam+Thmor+Pro&family=Lato:wght@100&family=Poppins:wght@400;500;600&family=Quattrocento&family=Roboto:ital,wght@1,100&display=swap');
+
+
+:root {
+  --body-font:'Kdam Thmor Pro', sans-serif;
+  --bg-color:#7F5AF0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-family: var(--body-font);
+ 
+  
+ 
+}
+h1, h2, h3 {
+  
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+ul{
+  list-style: none;
+}
+li{
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+max-width: 700px;
+margin: 0 auto;
 }
