@@ -1,0 +1,18 @@
+.nav__wrapper{
+    position: fixed;
+    bottom:1.4rem;
+    z-index:100;
+    padding: 2rem;
+    font-size:2rem;
+  }
+
+.nav__wrapper{
+   background-color: #e2daeb;
+   padding: 1rem;
+   border-radius: 1rem;
+}
+
+.color__nave{
+   color:black;
+}
+

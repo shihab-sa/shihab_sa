@@ -1,0 +1,101 @@
+
+/* ----------------------------- project nav bar ----------- */
+
+.custom__navbar__projects{
+    display: flex;
+    justify-content: center;
+    line-height:4rem;
+    background-color:var(--white);
+    width: 340px;
+    color: var(--darkBlue_4);
+    font-size: 1.5rem;
+    column-gap: 2rem;
+    margin-top: 6rem;
+    border-radius: 16px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+   
+
+}
+
+
+
+
+
+/* title  */
+
+
+
+/* ==============================card container==================================  */
+.card__container{
+  margin-top: 5rem;
+  height: 320px;
+  width: 320px;
+  background:var(--white);
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+}
+
+.card__wrapper{
+    padding: 2rem;
+}
+
+/* ========================================== link sections ============================= */
+
+.link__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------------------- github -------------------  */
+.github,.project__link__live,.checked{
+    font-size: 1.5rem;
+    color:var( --darkBlue_2);
+    margin-bottom: 2rem;
+    
+}
+
+
+
+
+/* project image  */
+
+/* .image__projects{
+    border-radius: 1rem;
+} */
+
+.image__rounded{
+    border-radius: .85rem;
+}
+
+
+/* card footer  */
+
+
+.projects__footer{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.project__icone{
+    font-size: 2rem;
+    /* color:var(--first-color); */
+    color:var( --darkBlue_2);
+    margin-top: 1.5rem;
+}
+
+.title__pro{
+    font-size: 1.1rem;
+    margin-top: 1.4rem;
+    color: var(--darkBlue_4);
+}
+
+
+
+/* ===================================  responsive ============================= */
+
+
+
+
+

@@ -3,6 +3,8 @@ import './Home.css'
 import {BsMessenger} from 'react-icons/bs'
 import {IoLogoWhatsapp} from 'react-icons/io'
 import {BsDownload} from 'react-icons/bs'
+import {AiFillLinkedin,AiFillGithub,AiOutlineInstagram} from 'react-icons/ai'
+import Bio from '../Bio/Bio'
 
 const Home=()=>{
     return(
@@ -23,13 +25,16 @@ const Home=()=>{
 
                     <ul className="profile__social">
                         <a href="#" target="_blank" className="profile__socail__link">
-                            <i className="ri-instagram-line"></i>
+                            {/* <i className="ri-instagram-line"></i> */}
+                            <AiOutlineInstagram/>
                          </a>
-                         <a href="#" target="_blank" className="profile__socail__link">
-                            <i className="ri-linkedin-box-fill"></i>
+                         <a href="https://www.linkedin.com/feed/" target="_blank" className="profile__socail__link">
+                            {/* <i className="ri-linkedin-box-fill"></i> */}
+                            <AiFillLinkedin/>
                         </a>
-                        <a href="#" target="_blank" className="profile__socail__link">
-                            <i className="ri-github-fill"></i>
+                        <a href="https://github.com/shihab-sa" target="_blank" className="profile__socail__link">
+                            {/* <i className="ri-github-fill"></i> */}
+                            <AiFillGithub/>
                         </a>
                     </ul>
                 </div>
@@ -38,7 +43,8 @@ const Home=()=>{
 
                 
                
-                
+                {/* another components  */}
+                <Bio/>
                 
             
 
@@ -71,7 +77,7 @@ const Home=()=>{
 
            
             <div className="profile__buttons">
-                <a download="#"  href="#" className="button">
+                <a download  href="shihab.pdf" className="button">
                     Download CV <BsDownload/>
                 </a>
                 <div className="profile__buttons__small">

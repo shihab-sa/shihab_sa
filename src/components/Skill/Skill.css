@@ -1,0 +1,67 @@
+/* skill main section  */
+
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    margin-top:6rem;
+    
+  
+  }
+  
+  .active-btn{
+      background:var(--mediumSlateBlue); 
+      color: var(--white);
+      border-radius:5px;
+      font-weight:500;  
+      
+  }
+  
+  .skill-btn{
+    padding:.86rem .87rem;
+    border: none;
+    border-radius:.2rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  }
+  
+  
+  
+  
+  /* ==============================card container==================================  */
+  .card__containers{
+    margin-top:1.3rem;
+    height: 260px;
+    width: 320px;
+    /* background: #FFFFFF; */
+    background: var(--white);
+    border-radius: 1rem;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+   
+  }
+  
+  .card__wrappers{
+      padding: 3rem;
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:1.5rem;
+  }
+  
+  .skill__title{
+      display: flex;
+      align-items: center;
+      gap:.4rem;
+      font-size:.98rem;
+      color: var( --darkBlue_2);
+  }
+  
+  
+  /* ========================================== skill ============================= */
+  
+  /* .skill__all{
+    display: flex;
+  } */
+  
+  
+  
